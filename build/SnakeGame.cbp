@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SnakeGame"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\share\;CMake Files\..\..\..\..\usr\share\SFML\;CMake Files\..\..\..\..\usr\share\SFML\cmake\;CMake Files\..\..\..\..\usr\share\SFML\cmake\Modules\;CMake Files\State\;CMake Files\ResourceManager\;CMake Files\Game\;CMake Files\MainMenu\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/default/projects/SnakeGame/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/default/projects/SnakeGame/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/default/projects/SnakeGame/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SnakeGame">
+				<Option output="/home/default/projects/SnakeGame/build/SnakeGame" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/default/projects/SnakeGame/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/c++/6.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/x86_64-linux-gnu/c++/6.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/c++/6.3.0/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/Makefile&quot;  VERBOSE=1 SnakeGame"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SnakeGame/fast">
+				<Option output="/home/default/projects/SnakeGame/build/SnakeGame" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/default/projects/SnakeGame/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/c++/6.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/x86_64-linux-gnu/c++/6.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/c++/6.3.0/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/Makefile&quot;  VERBOSE=1 SnakeGame/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="State">
+				<Option output="/home/default/projects/SnakeGame/build/State/libState.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/default/projects/SnakeGame/build/State"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/c++/6.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/x86_64-linux-gnu/c++/6.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/c++/6.3.0/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/State/Makefile&quot;  VERBOSE=1 State"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/State/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/State/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/State/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="State/fast">
+				<Option output="/home/default/projects/SnakeGame/build/State/libState.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/default/projects/SnakeGame/build/State"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/c++/6.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/x86_64-linux-gnu/c++/6.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/c++/6.3.0/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/State/Makefile&quot;  VERBOSE=1 State/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/State/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/State/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/State/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ResourceManager">
+				<Option output="/home/default/projects/SnakeGame/build/ResourceManager/libResourceManager.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/default/projects/SnakeGame/build/ResourceManager"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/c++/6.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/x86_64-linux-gnu/c++/6.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/c++/6.3.0/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/ResourceManager/Makefile&quot;  VERBOSE=1 ResourceManager"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/ResourceManager/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/ResourceManager/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/ResourceManager/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ResourceManager/fast">
+				<Option output="/home/default/projects/SnakeGame/build/ResourceManager/libResourceManager.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/default/projects/SnakeGame/build/ResourceManager"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/c++/6.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/x86_64-linux-gnu/c++/6.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/c++/6.3.0/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/ResourceManager/Makefile&quot;  VERBOSE=1 ResourceManager/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/ResourceManager/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/ResourceManager/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/ResourceManager/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Game">
+				<Option output="/home/default/projects/SnakeGame/build/Game/libGame.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/default/projects/SnakeGame/build/Game"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/c++/6.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/x86_64-linux-gnu/c++/6.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/c++/6.3.0/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/Game/Makefile&quot;  VERBOSE=1 Game"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/Game/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/Game/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/Game/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Game/fast">
+				<Option output="/home/default/projects/SnakeGame/build/Game/libGame.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/default/projects/SnakeGame/build/Game"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/c++/6.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/x86_64-linux-gnu/c++/6.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/c++/6.3.0/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/Game/Makefile&quot;  VERBOSE=1 Game/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/Game/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/Game/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/Game/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MainMenu">
+				<Option output="/home/default/projects/SnakeGame/build/MainMenu/libMainMenu.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/default/projects/SnakeGame/build/MainMenu"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/c++/6.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/x86_64-linux-gnu/c++/6.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/c++/6.3.0/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/MainMenu/Makefile&quot;  VERBOSE=1 MainMenu"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/MainMenu/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/MainMenu/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/MainMenu/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MainMenu/fast">
+				<Option output="/home/default/projects/SnakeGame/build/MainMenu/libMainMenu.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/default/projects/SnakeGame/build/MainMenu"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/c++/6.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/x86_64-linux-gnu/c++/6.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/c++/6.3.0/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/MainMenu/Makefile&quot;  VERBOSE=1 MainMenu/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/MainMenu/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/MainMenu/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/default/projects/SnakeGame/build/MainMenu/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/default/projects/SnakeGame/Game/Game.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/default/projects/SnakeGame/Game/Game.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/default/projects/SnakeGame/MainMenu/MainMenu.cpp">
+			<Option target="MainMenu"/>
+		</Unit>
+		<Unit filename="/home/default/projects/SnakeGame/MainMenu/MainMenu.h">
+			<Option target="MainMenu"/>
+		</Unit>
+		<Unit filename="/home/default/projects/SnakeGame/ResourceManager/ResourceManager.cpp">
+			<Option target="ResourceManager"/>
+		</Unit>
+		<Unit filename="/home/default/projects/SnakeGame/ResourceManager/ResourceManager.h">
+			<Option target="ResourceManager"/>
+		</Unit>
+		<Unit filename="/home/default/projects/SnakeGame/State/State.cpp">
+			<Option target="State"/>
+		</Unit>
+		<Unit filename="/home/default/projects/SnakeGame/State/State.h">
+			<Option target="State"/>
+		</Unit>
+		<Unit filename="/home/default/projects/SnakeGame/State/StateManager.cpp">
+			<Option target="State"/>
+		</Unit>
+		<Unit filename="/home/default/projects/SnakeGame/State/StateManager.h">
+			<Option target="State"/>
+		</Unit>
+		<Unit filename="/home/default/projects/SnakeGame/main.cpp">
+			<Option target="SnakeGame"/>
+		</Unit>
+		<Unit filename="/home/default/projects/SnakeGame/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/default/projects/SnakeGame/../../../../usr/share/SFML/cmake/Modules/FindSFML.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\SFML\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/default/projects/SnakeGame/State/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\State\"/>
+		</Unit>
+		<Unit filename="/home/default/projects/SnakeGame/ResourceManager/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ResourceManager\"/>
+		</Unit>
+		<Unit filename="/home/default/projects/SnakeGame/Game/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Game\"/>
+		</Unit>
+		<Unit filename="/home/default/projects/SnakeGame/MainMenu/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\MainMenu\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

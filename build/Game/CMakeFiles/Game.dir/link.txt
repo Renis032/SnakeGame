@@ -1,0 +1,1 @@
+/usr/bin/clang++-10  -fPIC   -shared -Wl,-soname,libGame.so -o libGame.so CMakeFiles/Game.dir/Game.cpp.o 

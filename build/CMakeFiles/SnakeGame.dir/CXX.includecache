@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/default/projects/SnakeGame/Game/Game.h
+SFML/Graphics/RenderWindow.hpp
+/home/default/projects/SnakeGame/Game/SFML/Graphics/RenderWindow.hpp
+../ResourceManager/ResourceManager.h
+/home/default/projects/SnakeGame/ResourceManager/ResourceManager.h
+../State/StateManager.h
+/home/default/projects/SnakeGame/State/StateManager.h
+memory
+-
+
+/home/default/projects/SnakeGame/ResourceManager/ResourceManager.h
+SFML/Graphics/Texture.hpp
+-
+SFML/Graphics/Font.hpp
+-
+unordered_map
+-
+
+/home/default/projects/SnakeGame/State/State.h
+SFML/System/Time.hpp
+-
+
+/home/default/projects/SnakeGame/State/StateManager.h
+stack
+-
+memory
+-
+State.h
+/home/default/projects/SnakeGame/State/State.h
+
+/home/default/projects/SnakeGame/main.cpp
+iostream
+-
+SFML/Graphics.hpp
+-
+Game/Game.h
+/home/default/projects/SnakeGame/Game/Game.h
+

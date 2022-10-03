@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/default/projects/SnakeGame/ResourceManager/ResourceManager.cpp
+ResourceManager.h
+/home/default/projects/SnakeGame/ResourceManager/ResourceManager.h
+iostream
+-
+unistd.h
+-
+stdio.h
+-
+limits.h
+-
+
+/home/default/projects/SnakeGame/ResourceManager/ResourceManager.h
+SFML/Graphics/Texture.hpp
+-
+SFML/Graphics/Font.hpp
+-
+unordered_map
+-
+

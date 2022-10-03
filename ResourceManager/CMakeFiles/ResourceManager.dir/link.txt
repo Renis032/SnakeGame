@@ -1,0 +1,1 @@
+/usr/bin/clang++-10  -fPIC   -shared -Wl,-soname,libResourceManager.so -o libResourceManager.so CMakeFiles/ResourceManager.dir/ResourceManager.cpp.o 

@@ -1,0 +1,1 @@
+/usr/bin/clang++-10  -fPIC   -shared -Wl,-soname,libMainMenu.so -o libMainMenu.so CMakeFiles/MainMenu.dir/MainMenu.cpp.o 

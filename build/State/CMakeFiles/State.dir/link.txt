@@ -1,0 +1,1 @@
+/usr/bin/clang++-10  -fPIC   -shared -Wl,-soname,libState.so -o libState.so CMakeFiles/State.dir/State.cpp.o CMakeFiles/State.dir/StateManager.cpp.o 

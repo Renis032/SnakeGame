@@ -1,0 +1,15 @@
+/home/default/projects/SnakeGame/CMakeFiles/rebuild_cache.dir
+/home/default/projects/SnakeGame/CMakeFiles/edit_cache.dir
+/home/default/projects/SnakeGame/CMakeFiles/SnakeGame.dir
+/home/default/projects/SnakeGame/State/CMakeFiles/rebuild_cache.dir
+/home/default/projects/SnakeGame/State/CMakeFiles/edit_cache.dir
+/home/default/projects/SnakeGame/State/CMakeFiles/State.dir
+/home/default/projects/SnakeGame/ResourceManager/CMakeFiles/rebuild_cache.dir
+/home/default/projects/SnakeGame/ResourceManager/CMakeFiles/edit_cache.dir
+/home/default/projects/SnakeGame/ResourceManager/CMakeFiles/ResourceManager.dir
+/home/default/projects/SnakeGame/Game/CMakeFiles/rebuild_cache.dir
+/home/default/projects/SnakeGame/Game/CMakeFiles/edit_cache.dir
+/home/default/projects/SnakeGame/Game/CMakeFiles/Game.dir
+/home/default/projects/SnakeGame/MainMenu/CMakeFiles/edit_cache.dir
+/home/default/projects/SnakeGame/MainMenu/CMakeFiles/rebuild_cache.dir
+/home/default/projects/SnakeGame/MainMenu/CMakeFiles/MainMenu.dir
