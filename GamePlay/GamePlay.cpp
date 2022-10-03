@@ -1,5 +1,7 @@
 #include "GamePlay.h"
 
+#include <SFML/Window/Event.hpp>
+
 GamePlay::GamePlay(std::shared_ptr<Context>& context) : m_context(context)
 {
 }
@@ -14,12 +16,19 @@ void GamePlay::Init()
     m_grass.setTexture(m_context->resources->GetTexture("grass"));
     m_grass.setTextureRect(m_context->window->getViewport(m_context->window->getDefaultView()));
 
-    m_food.setTexture(m_context->resources->GetTexture("food"));
+//    m_food.setTexture(m_context->resources->GetTexture("food"));
 }
 
 void GamePlay::ProccesInput()
 {
-
+    sf::Event event;
+    while (m_context->window->pollEvent(event))
+    {
+        if (event.type == sf::Event::Closed || sf::Keyboard::isKeyPressed(sf::Keyboard::Escape))
+        {
+            m_context->window->close();
+        }
+    }
 }
 
 void GamePlay::Update(sf::Time deltaTime)
