@@ -9,6 +9,7 @@ add_subdirectory(ResourceManager)
 add_subdirectory(Game)
 add_subdirectory(MainMenu)
 add_subdirectory(GamePlay)
+add_subdirectory(Snake)
 
 set(SOURCE main.cpp)
 add_executable(${PROJECT_NAME} ${SOURCE})
@@ -20,6 +21,7 @@ endif()
 
 target_link_libraries(${PROJECT_NAME} PRIVATE
                                       State
+                                      Snake
                                       MainMenu
                                       Game
                                       GamePlay

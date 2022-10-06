@@ -24,7 +24,7 @@ void MainMenu::Init()
     m_playButton.setString("Play");
     m_playButton.setCharacterSize(40);
     m_playButton.setOrigin(m_playButton.getLocalBounds().width / 2, 0);
-    m_playButton.setPosition(m_gameTitle.getPosition().x, m_gameTitle.getPosition().y + 300);
+    m_playButton.setPosition(m_gameTitle.getPosition().x, m_gameTitle.getPosition().y + (m_context->window->getSize().y / 4));
 
 
     m_exitButton.setFont( m_context->resources->GetFont("mainFont"));

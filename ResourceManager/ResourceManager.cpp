@@ -26,7 +26,7 @@ void ResourceManager::LoadResource(const ResourceManager::Key &key, const std::s
     std::cout << "File not found." << std::endl;
 }
 
-auto ResourceManager::GetTexture(const ResourceManager::Key &key) const -> const sf::Texture&
+auto ResourceManager::GetTexture(const ResourceManager::Key &key) -> sf::Texture&
 {
     auto iter = m_textures.find(key);
     if(iter != m_textures.end())

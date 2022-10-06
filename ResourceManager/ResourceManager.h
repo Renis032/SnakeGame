@@ -13,7 +13,7 @@ public:
 
     void LoadResource(const Key& key, const std::string& path);
 
-    auto GetTexture(const Key& key) const -> const sf::Texture&;
+    auto GetTexture(const Key& key) -> sf::Texture&;
     auto GetFont(const Key& key) const -> const sf::Font&;
 
 private:
