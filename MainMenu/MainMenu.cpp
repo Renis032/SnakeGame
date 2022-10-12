@@ -16,6 +16,8 @@ void MainMenu::Init()
     m_gameTitle.setFont( m_context->resources->GetFont("mainFont"));
     m_gameTitle.setString("Snake Game");
     m_gameTitle.setCharacterSize(60);
+    m_gameTitle.setOutlineColor(sf::Color::Black);
+    m_gameTitle.setOutlineThickness(3.0f);
     m_gameTitle.setOrigin(m_gameTitle.getLocalBounds().width / 2, 0);
     m_gameTitle.setPosition(m_context->window->getSize().x / 2, m_gameTitle.getPosition().y / 2);
 
@@ -23,6 +25,8 @@ void MainMenu::Init()
     m_playButton.setFont( m_context->resources->GetFont("mainFont"));
     m_playButton.setString("Play");
     m_playButton.setCharacterSize(40);
+    m_playButton.setOutlineColor(sf::Color::Black);
+    m_playButton.setOutlineThickness(3.0f);
     m_playButton.setOrigin(m_playButton.getLocalBounds().width / 2, 0);
     m_playButton.setPosition(m_gameTitle.getPosition().x, m_gameTitle.getPosition().y + (m_context->window->getSize().y / 4));
 
@@ -30,6 +34,8 @@ void MainMenu::Init()
     m_exitButton.setFont( m_context->resources->GetFont("mainFont"));
     m_exitButton.setString("Exit");
     m_exitButton.setCharacterSize(40);
+    m_exitButton.setOutlineColor(sf::Color::Black);
+    m_exitButton.setOutlineThickness(3.0f);
     m_exitButton.setOrigin(m_exitButton.getLocalBounds().width / 2, 0);
     m_exitButton.setPosition(m_gameTitle.getPosition().x, m_playButton.getPosition().y + 100);
 }
@@ -106,7 +112,7 @@ void MainMenu::Update(sf::Time deltaTime)
 
     if(m_isPlayButtonPressed)
     {
-        m_context->states->AddState(std::make_unique<GamePlay>(m_context));
+        m_context->states->AddState(std::make_unique<GamePlay>(m_context), true);
     }
     if(m_isExitButtonPressed)
     {

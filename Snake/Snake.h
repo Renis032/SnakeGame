@@ -16,8 +16,10 @@ public:
     void Init(const sf::Texture& texture);
     void Move(const sf::Vector2f& direction);
     void Draw(const sf::Vector2f& direction);
+    void Grow(const sf::Vector2f& direction);
 
     bool isColliding(const sf::Sprite& other) const;
+    bool isSelfColliding() const;
 
     void draw(sf::RenderTarget& target, sf::RenderStates states) const override;
 private:

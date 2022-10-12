@@ -7,9 +7,12 @@ project(SnakeGame)
 add_subdirectory(State)
 add_subdirectory(ResourceManager)
 add_subdirectory(Game)
-add_subdirectory(MainMenu)
-add_subdirectory(GamePlay)
+add_subdirectory(Common)
 add_subdirectory(Snake)
+add_subdirectory(MainMenu)
+add_subdirectory(PauseMenu)
+add_subdirectory(GamePlay)
+add_subdirectory(GameOver)
 
 set(SOURCE main.cpp)
 add_executable(${PROJECT_NAME} ${SOURCE})
@@ -20,11 +23,14 @@ if(SFML_FOUND)
 endif()
 
 target_link_libraries(${PROJECT_NAME} PRIVATE
+                                      Common
                                       State
                                       Snake
                                       MainMenu
+                                      PauseMenu
                                       Game
                                       GamePlay
+                                      GameOver
                                       ResourceManager)
 
 target_link_libraries(${PROJECT_NAME} sfml-system sfml-graphics sfml-audio sfml-window)

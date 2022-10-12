@@ -8,6 +8,7 @@
 #include "../Snake/Snake.h"
 
 #include <SFML/Graphics/Sprite.hpp>
+#include <SFML/Graphics/Text.hpp>
 
 class GamePlay : public Engine::State
 {
@@ -27,6 +28,9 @@ private:
     std::shared_ptr<Context> m_context;
     sf::Sprite m_grass;
     sf::Sprite m_food;
+
+    sf::Text m_scoreText;
+    int m_score = 0;
 
     std::vector<sf::Sprite> m_walls;
 

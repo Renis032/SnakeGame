@@ -11,7 +11,7 @@ Context::Context()
 
 Game::Game()
 {
-    m_context->window->create(sf::VideoMode(640, 360), "Snake", sf::Style::Close);
+    m_context->window->create(sf::VideoMode(352, 352), "Snake", sf::Style::Close);
     m_context->window->setVerticalSyncEnabled(true);
 
     m_context->states->AddState(std::make_unique<MainMenu>(m_context));
