@@ -11,7 +11,7 @@ MainMenu::MainMenu(std::shared_ptr<Context>& context) : m_context(context)
 
 void MainMenu::Init()
 {
-    m_context->resources->LoadResource("mainFont","/home/default/projects/SnakeGame/assets/fonts/Pacifico-Regular.ttf");
+    m_context->resources->LoadResource("mainFont","assets/fonts/Pacifico-Regular.ttf");
 
     m_gameTitle.setFont( m_context->resources->GetFont("mainFont"));
     m_gameTitle.setString("Snake Game");

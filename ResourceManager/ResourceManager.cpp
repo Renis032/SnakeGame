@@ -1,10 +1,6 @@
 #include "ResourceManager.h"
 #include <iostream>
 
-#include <unistd.h>
-#include <stdio.h>
-#include <limits.h>
-
 namespace Core
 {
 

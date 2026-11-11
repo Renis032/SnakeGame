@@ -15,10 +15,10 @@ GamePlay::GamePlay(std::shared_ptr<Context>& context) : m_context(context)
 
 void GamePlay::Init()
 {
-    m_context->resources->LoadResource("food", "/home/default/projects/SnakeGame/assets/textures/food.png");
-    m_context->resources->LoadResource("wall", "/home/default/projects/SnakeGame/assets/textures/wall.png");
-    m_context->resources->LoadResource("grass", "/home/default/projects/SnakeGame/assets/textures/grass.png");
-    m_context->resources->LoadResource("snake", "/home/default/projects/SnakeGame/assets/textures/snake.png");
+    m_context->resources->LoadResource("food", "assets/textures/food.png");
+    m_context->resources->LoadResource("wall", "assets/textures/wall.png");
+    m_context->resources->LoadResource("grass", "assets/textures/grass.png");
+    m_context->resources->LoadResource("snake", "assets/textures/snake.png");
 
     auto& texture = m_context->resources->GetTexture("grass");
     texture.setRepeated(true);
